@@ -12,7 +12,7 @@ const RequestSchema = z
   })
   .strict();
 
-const GEMINI_MODEL = "gemini-2.5-flash-image-preview";
+const GEMINI_MODEL = "gemini-2.5-flash-image";
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 const RATE_LIMIT_PER_HOUR = 5;
